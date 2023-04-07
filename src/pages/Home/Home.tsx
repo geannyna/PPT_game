@@ -2,7 +2,7 @@ import React from 'react';
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonRouterLink } from '@ionic/react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonRippleEffect  } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
-import '/src/Home.css';
+import '/MiEstilo.css';
 
 
 
