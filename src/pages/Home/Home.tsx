@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 const history = useHistory();
 
 const handleClick = () => {
-  history.push('/game');
+  history.push('./game');
 }
   return (
     <IonPage>
@@ -23,7 +23,8 @@ const handleClick = () => {
             </IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+    
+    <IonContent fullscreen className='home_background'>
 
     <IonCard>
       <IonCardHeader>

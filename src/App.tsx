@@ -37,13 +37,10 @@ const App: React.FC = () => (
         <Route exact path="/">
           <Redirect to="/index" />
         </Route>
+        <Route exact path="/game">
+          <Game />
+        </Route>
       </IonRouterOutlet>
-      <IonRouterOutlet>
-  <Route exact path="/game">
-    <Game />
-  </Route>
-</IonRouterOutlet>
-
     </IonReactRouter>
   </IonApp>
 );
