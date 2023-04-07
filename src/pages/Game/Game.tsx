@@ -5,11 +5,9 @@ const Game: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-       
           <IonTitle>
             Rock Paper Scissors play
             </IonTitle>
-        
       </IonHeader>
       <IonContent fullscreen>
         <p className='rules' id='rules'>

@@ -1,42 +1,20 @@
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
 
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
+/* css game */
 
-  height: 300px;
-  width: 300px;
-
-  margin: 0 auto;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-b {
-  width: 100%;
+:root{
+  --c-gold: rgb(243, 206, 133);
+  --c-beige: rgb(233, 215, 160);
+  --c-purple: rgb(53, 6, 135);
 }
-
-.ripple-parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-  overflow: hidden;
-
-  border: 1px solid #ddd;
-  user-select: none;
+body{
+  background-color: var(--c-purple);
+  color: var(--c-beige);
 }
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-.home_background{
-  background-image: url(../public/img/fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
-
 
