@@ -1,15 +1,15 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Home.css';
+import { IonContent, IonHeader, IonPage, IonTitle } from '@ionic/react';
 
-const Home: React.FC = () => {
+
+const Game: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+       
           <IonTitle>
-            <h1>Rock Paper Scissors</h1>
+            Rock Paper Scissors play
             </IonTitle>
-        </IonToolbar>
+        
       </IonHeader>
       <IonContent fullscreen>
         <p className='rules' id='rules'>
@@ -45,4 +45,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Game;
