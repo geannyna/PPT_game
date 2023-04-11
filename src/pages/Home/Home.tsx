@@ -36,8 +36,8 @@ const handleClick = () => {
 
       <IonCardContent>
         <IonRouterLink onClick={handleClick}>
-          <div className="start">
-            <IonButton fill="outline">Start</IonButton>
+          <div>
+            <IonButton className="start" fill="outline">Start</IonButton>
           </div>
         </IonRouterLink>
       </IonCardContent>

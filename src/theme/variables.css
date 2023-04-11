@@ -297,3 +297,7 @@ b {
   background-size: cover; 
   background-color: blue;
 }
+.start{
+  background-color: #ebf8b3;
+  border: none;
+}
