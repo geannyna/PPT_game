@@ -1,11 +1,7 @@
 import React from 'react';
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonRouterLink } from '@ionic/react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonRippleEffect  } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonButton } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
-import '/MiEstilo.css';
-
-
-
 
 const Home: React.FC = () => {
 
@@ -40,9 +36,8 @@ const handleClick = () => {
 
       <IonCardContent>
         <IonRouterLink onClick={handleClick}>
-          <div className="ion-activatable ripple-parent circle">
-            Start
-            <IonRippleEffect type="unbounded"></IonRippleEffect>
+          <div className="start">
+            <IonButton fill="outline">Start</IonButton>
           </div>
         </IonRouterLink>
       </IonCardContent>
