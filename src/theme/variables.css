@@ -255,42 +255,6 @@ body{
   background-color: var(--c-purple);
   color: var(--c-beige);
 }
-
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-
-  height: 300px;
-  width: 300px;
-
-  margin: 0 auto;
-}
-
-b {
-  width: 100%;
-}
-
-.ripple-parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-  overflow: hidden;
-
-  border: 1px solid #ddd;
-  user-select: none;
-}
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
 .home_background{
   background-image: url('/public/img/fondo.png');
   background-repeat: no-repeat;
@@ -298,6 +262,7 @@ b {
   background-color: blue;
 }
 .start{
-  background-color: #ebf8b3;
-  border: none;
+  background-color:transparent;
+  border: 3px solid blue ;
+  color: var(--c-beige);
 }
