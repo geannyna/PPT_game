@@ -1,7 +1,8 @@
 import React from 'react';
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonRouterLink } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonImg, IonRouterLink } from '@ionic/react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonButton } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
+import './Home.css';
 
 const Home: React.FC = () => {
 
@@ -12,9 +13,9 @@ const handleClick = () => {
   history.push('./game');
 }
   return (
-    <IonPage>
+    <IonPage class='content'>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="header">
           <IonTitle>
             Piedra papel tijera
             </IonTitle>
@@ -24,13 +25,14 @@ const handleClick = () => {
     <IonContent fullscreen className='home_background'>
 
     <IonCard>
-      <IonCardHeader>
+      <IonCardHeader color="mycolor">
         <IonCardTitle>
         <h1>Rock Paper Scissors</h1>
         </IonCardTitle>
-        <IonCardSubtitle> <p className='rules' id='rules'>
-          El primero en llegar a 10 puntos gana
-        </p>
+        <IonCardSubtitle>
+           <p className='rules' id='rules'>
+            <h3>El primero en llegar a 10 puntos gana</h3>
+           </p>
         </IonCardSubtitle>
       </IonCardHeader>
 
@@ -40,6 +42,7 @@ const handleClick = () => {
             <IonButton className="start" fill="outline">Start</IonButton>
           </div>
         </IonRouterLink>
+        <IonImg className='img' src="./img/fondo_p.png" alt=""></IonImg>
       </IonCardContent>
     </IonCard>
       </IonContent>
