@@ -22,9 +22,9 @@ const handleClick = () => {
         </IonToolbar>
       </IonHeader>
     
-    <IonContent fullscreen className='home_background'>
+    <IonContent className='home_body'>
 
-    <IonCard>
+    <IonCard className='card_body'>
       <IonCardHeader color="mycolor">
         <IonCardTitle>
         <h1>Rock Paper Scissors</h1>
@@ -39,12 +39,17 @@ const handleClick = () => {
       <IonCardContent>
         <IonRouterLink onClick={handleClick}>
           <div>
-            <IonButton className="start" fill="outline">Start</IonButton>
+            <IonButton class='row' className="start" fill="outline">Start</IonButton>
           </div>
         </IonRouterLink>
-        <IonImg className='img' src="./img/fondo_p.png" alt=""></IonImg>
+       
+        
       </IonCardContent>
     </IonCard>
+     <div className='card_img'>
+            
+          <IonImg src='img/fondo_1.png' className='fondo'></IonImg>
+        </div>
       </IonContent>
     </IonPage>
   );

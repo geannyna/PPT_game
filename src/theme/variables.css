@@ -4,7 +4,9 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 
 :root {
-    --ion-background-color: #330289;
+  
+  height: 100%;
+    --ion-background-color: #2b026b;
     --ion-background-color-rgb: rgb(51, 2, 137);
   
     --ion-text-color: #fee0a2;
@@ -70,14 +72,12 @@ http://ionicframework.com/docs/theming/ */
    * -------------------------------------------
    */
 
-  body {
+  /* body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--c-purple);
-  color: var(--c-beige);
-  }
+  } */
 
   /*
    * iOS Dark Theme
